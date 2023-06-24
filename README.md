@@ -21,15 +21,16 @@ Here are some ways GitHub Copilot contributed to building this app:
    I was able to develop code faster and maintain consistency throughout the programme by implementing their advice.
 
 ## Screen Shot
-[Screencast from 2023-06-24 17-21-34.webm](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/8ae2565e-a930-4c76-9dd4-cdc74c3dcd0c)
+[Screencast from 2023-06-24 17-21-34.webm](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/6f85ebdd-2f0c-4166-b7d4-1cba379081b2)
 
-![1](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/3ba559c8-1304-473e-b27b-f5078b308bfd)
-![2](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/bbaac23f-9fb8-4083-b674-8d936bd6418d)
-![3](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/84465f71-17f2-4582-819d-518e6a6abed7)
-![4](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/832c9955-f4d0-4227-9708-28d5e7472b9a)
-![5](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/209e0a7a-6add-4e5e-8afd-2852cbc403c6)
-![6](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/29825b6c-cf8b-4b65-8143-af5dc49ed00b)
-![7](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/6e96a02b-a58f-4cc7-936d-57c8aabb2a3b)
+![1](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/5283141c-6a0a-401b-badd-066542d45b98)
+![2](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/97660a85-32a5-447f-bbd7-0a306b7cc542)
+![3](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/3148925f-70cb-40c1-a6fe-7671dd1b6898)
+![4](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/e0ec726f-9641-4ff3-9f30-8f83d43c1258)
+![5](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/6e536d23-a6d2-4204-8687-bbb75307c812)
+![6](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/760af727-ddcc-4ad9-bd89-02fa2a078898)
+![7](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/c8e101e4-451f-432f-9d15-3164baa5fdf7)
+
 
 
 
@@ -70,7 +71,7 @@ Follow the instructions below to get started with the Finance Tracker applicatio
    You may specify the database connection details or any other required configurations.
 
 3. Start the application.
-  `npm start`
+  `npm start` or `node index.js`
 
 ##Contact
 If you have any questions, suggestions, or feedback, please contact the project maintainer:
