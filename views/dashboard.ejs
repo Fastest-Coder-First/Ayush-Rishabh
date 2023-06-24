@@ -1,0 +1,63 @@
+<%- include("./partials/header.ejs") -%>
+<div class="container">
+    <div class="graph">
+
+    </div>
+    <div class="transaction-options">
+
+    </div>
+    <div class="transactions container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">ID</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Date/Time</th>
+                <th scope="col">Description</th>
+                <th scope="col">Sender/Source</th>
+                <th scope="col">Recipient/Destination</th>
+                <th scope="col">Payment Method</th>
+              </tr>
+            </thead>
+            <tbody>
+
+                <% allTransactions.forEach((transaction) => { %>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td><%=transaction.transactionId%></td>
+                        <td><%=transaction.currency%></td>
+                        <td><%=transaction.amount%></td>
+                        <td><%=transaction.date%></td>
+                        <td><%=transaction.description%></td>
+                        <td><%=transaction.sender%></td>
+                        <td><%=transaction.recipient%></td>
+                        <td><%=transaction.paymentMethod%></td>
+                    </tr>
+            <%  }); %>
+
+              <!-- <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr> -->
+            </tbody>
+          </table>
+    </div>
+</div>
+
+
+<%- include("./partials/footer.ejs") -%>

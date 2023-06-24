@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 1px;
+}
+li{
+    list-style: none;
+}
+
+#hero{
+    padding: 20px 0px;
+}
+#features{
+    margin-bottom: 50px !important;
+}
+#pricing{
+    margin-bottom: 50px !important;
+}
+#reviews{
+    margin-bottom: 50px !important;
+}
+
+
+.carousel-caption{
+    color: black !important;
+}
+.review-img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px black; 
+    display: block;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .faq-content{
+    padding-top: 150px !important;
+    text-align: justify;
+  }
+
+  .about{
+    text-align: left !important;
+    background-image: url("/images/about.jpg");
+    background-color: none !important;
+    background-repeat: no-repeat;
+    background-size: 1400px 700px ;
+    
+
+  }
