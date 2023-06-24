@@ -1,10 +1,51 @@
-<%- include("./partials/header.ejs") -%>
+<%- include("./partials/headerin.ejs") -%>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['Balance',      <%=currentBalance%>],
+      ['Expense',    <%=totalExpenditure%>]
+    ]);
+
+    var options = {
+      title: 'My Financial Details',
+      is3D: true,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+    chart.draw(data, options);
+  }
+</script>
+
 <div class="container">
-    <div class="graph">
+    <h1>Current Balance:<%=currentBalance%></h1>
+    <h2>Initial Balance:<%=initialBalance%></h2>
+    <h2>Total Expense: <%=totalExpenditure%></h2>
+
+    <div id="piechart_3d" style="width: 900px; height: 500px;" class="my-3">
+
 
     </div>
-    <div class="transaction-options">
-
+    <div class="transaction-options text-center">
+        <form action="/add" method="post">
+            <select name="currency" class="form-control" id="" required>
+                <option value="RS">Rupees</option>
+            </select>
+            <input type="text" name="amount" class="form-control" placeholder="Amount" required>
+            <input type="text" name="date" class="form-control" placeholder="Date" required>
+            <input type="text" name="desc" class="form-control" placeholder="Description" required>
+            <input type="text" name="send" class="form-control" placeholder="Sender" required>
+            <input type="text" name="recieve" class="form-control" placeholder="Reciever" required>
+            <select name="payment" class="form-control" id="" required>
+                <option value="UPI">UPI</option>
+                <option value="NEFT">NEFT</option>
+                <option value="IMPS">IMPS</option>
+            </select>
+            <button type="submit" class="btn btn-warning">Add Transaction</button>
+        </form>
     </div>
     <div class="transactions container">
         <table class="table">
@@ -19,6 +60,8 @@
                 <th scope="col">Sender/Source</th>
                 <th scope="col">Recipient/Destination</th>
                 <th scope="col">Payment Method</th>
+                <th scope="col">DELETE</th>
+
               </tr>
             </thead>
             <tbody>
@@ -26,7 +69,7 @@
                 <% allTransactions.forEach((transaction) => { %>
                     <tr>
                         <th scope="row">1</th>
-                        <td><%=transaction.transactionId%></td>
+                        <td><%=transaction.id%></td>
                         <td><%=transaction.currency%></td>
                         <td><%=transaction.amount%></td>
                         <td><%=transaction.date%></td>
@@ -34,26 +77,10 @@
                         <td><%=transaction.sender%></td>
                         <td><%=transaction.recipient%></td>
                         <td><%=transaction.paymentMethod%></td>
+                        <td><form action="/delete" method="post"><input type="checkbox" name="deleteID" value="<%=transaction.id%>" onchange="this.form.submit()" class="btn btn-danger"></form></td>
                     </tr>
             <%  }); %>
 
-              <!-- <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr> -->
             </tbody>
           </table>
     </div>
