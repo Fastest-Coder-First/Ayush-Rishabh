@@ -38,7 +38,7 @@ https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/80321b83-86
 
 
 
-## Intrack - A Finance Tracker
+## FinTrack - A Finance Tracker
 The Finance Tracker is a simple online application that allows you to simply manage your financial activities.
 You may use this programme to conveniently track your income and spending by adding, editing, and deleting financial transactions.
 
@@ -58,15 +58,15 @@ This feature keeps your transaction history accurate and uncluttered.
 ## Technologies Used
 #The following technologies are used to create the Finance Tracker:
 
-Front-end: HTML, CSS, ejs, and JavaScript.
-Database: MongoDB, atlas 
-Backend: Node.js, Express.js
+### Front-end: HTML, CSS, ejs(Embedded Javascript), and JavaScript.
+### Database: MongoDB Atlas 
+### Backend: Node.js, Express.js
 
 ## Getting Started
 Follow the instructions below to get started with the Finance Tracker application:
 
 1. Clone the repository to your local machine or download the source code.
-  `git clone https://github.com/your-username/finance-tracker.git`
+  `git clone https://github.com/Fastest-Coder-First/Ayush-Rishabh.git`
 
 2. Install the dependencies using a package manager like npm or yarn.
   `npm install` or `npm i`
@@ -77,7 +77,7 @@ Follow the instructions below to get started with the Finance Tracker applicatio
 3. Start the application.
   `npm start` or `node index.js`
 
-##Contact
+## Contact
 If you have any questions, suggestions, or feedback, please contact the project maintainer:
 
 Email: rishabh.kumar10101@icloud.com
