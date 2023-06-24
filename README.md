@@ -1,5 +1,6 @@
 # Ayush-Rishabh
 Fastest-Coder-First Hackathon Project
+# Check Out Live FinTrack Website at : https://fintrack-dpzw.onrender.com
 
 ## Github Copilot
 GitHub Copilot, an AI-powered coding assistant, played a significant role in the development of the Finance Tracker application. 
@@ -21,7 +22,10 @@ Here are some ways GitHub Copilot contributed to building this app:
    I was able to develop code faster and maintain consistency throughout the programme by implementing their advice.
 
 ## Screen Shot
-[Screencast from 2023-06-24 17-21-34.webm](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/6f85ebdd-2f0c-4166-b7d4-1cba379081b2)
+
+
+https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/80321b83-8606-4661-9263-c01e13adcac7
+
 
 ![1](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/5283141c-6a0a-401b-badd-066542d45b98)
 ![2](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/97660a85-32a5-447f-bbd7-0a306b7cc542)
