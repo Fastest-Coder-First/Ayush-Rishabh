@@ -20,14 +20,17 @@ Here are some ways GitHub Copilot contributed to building this app:
    It suggested clever variable names, function arguments, and method calls.
    I was able to develop code faster and maintain consistency throughout the programme by implementing their advice.
 
-##Screen Shot
-![ScreenShot](1.png)
-![ScreenShot](2.png)
-![ScreenShot](3.png)
-![ScreenShot](4.png)
-![ScreenShot](5.png)
-![ScreenShot](6.png)
-![ScreenShot](7.png)
+## Screen Shot
+[Screencast from 2023-06-24 17-21-34.webm](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/8ae2565e-a930-4c76-9dd4-cdc74c3dcd0c)
+
+![1](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/3ba559c8-1304-473e-b27b-f5078b308bfd)
+![2](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/bbaac23f-9fb8-4083-b674-8d936bd6418d)
+![3](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/84465f71-17f2-4582-819d-518e6a6abed7)
+![4](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/832c9955-f4d0-4227-9708-28d5e7472b9a)
+![5](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/209e0a7a-6add-4e5e-8afd-2852cbc403c6)
+![6](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/29825b6c-cf8b-4b65-8143-af5dc49ed00b)
+![7](https://github.com/Fastest-Coder-First/Ayush-Rishabh/assets/97796512/6e96a02b-a58f-4cc7-936d-57c8aabb2a3b)
+
 
 
 ## Intrack - A Finance Tracker
